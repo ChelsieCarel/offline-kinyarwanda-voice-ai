@@ -31,12 +31,12 @@ Décisions d'ingénierie et gestion des contraintes matériellesEnvironnement ma
 python -m venv env
 .\env\Scripts\Activate.ps1
 
-# 2. Installer les dépendances
+## 2. Installer les dépendances
 pip install -r requirements.txt
 
-# 3. Exécuter les benchmarks individuels (télécharge et met en cache les modèles)
+## 3. Exécuter les benchmarks individuels (télécharge et met en cache les modèles)
 python src/run_asr_benchmark.py
 python src/run_llm_benchmark.py
 
-# 4. Exécuter le pipeline complet 100 % hors ligne
+## 4. Exécuter le pipeline complet 100 % hors ligne
 python src/pipeline.py --audio data/audio/kin_afrivoice_test_02.wav --max-tokens 20
