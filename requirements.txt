@@ -1,0 +1,9 @@
+nemo_toolkit[asr]
+torch
+soundfile
+jiwer
+onnxruntime>=1.20.0
+transformers
+huggingface_hub
+numpy
+psutil

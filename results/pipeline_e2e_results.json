@@ -1,0 +1,30 @@
+{
+  "pipeline_mode": "100%_OFFLINE_CPU_SEQUENTIAL_MEMORY_MANAGED",
+  "hardware": "Windows 10 Pro | Intel Core i5-1145G7 | 16GB RAM (CPU-only)",
+  "input_audio": {
+    "file": "data/audio/kin_afrivoice_test_03.wav",
+    "duration_sec": 15.0,
+    "reference_text": ""
+  },
+  "stage_1_asr": {
+    "model": "Mbaza-ASR-Afrivoice-660h",
+    "load_time_sec": 1.86,
+    "transcription": "abagore n'abagabo bari mu murima bose bafite amasuka umwe muri bo arayazamuye inyuma yabo hari umurima uteyemo insina n'iruhande rwabo inyuma yabo hari umusozi",
+    "inference_latency_sec": 0.919,
+    "rtf": 0.061,
+    "ram_mb": 1574.62
+  },
+  "stage_2_llm": {
+    "model": "onnx-community/gemma-4-E2B-it-qat-mobile-ONNX",
+    "load_time_sec": 3.71,
+    "response_text": "It seems like you've provided a string of text in a language that appears to be a mix",
+    "completion_tokens": 20,
+    "inference_latency_sec": 72.474,
+    "tokens_per_sec": 0.28,
+    "ram_mb": 2214.75
+  },
+  "end_to_end_summary": {
+    "total_inference_latency_sec": 73.393,
+    "peak_ram_mb": 2660.83
+  }
+}

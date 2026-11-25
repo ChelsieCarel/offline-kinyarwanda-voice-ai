@@ -1,0 +1,79 @@
+{
+  "model_id": "onnx-community/gemma-4-E2B-it-qat-mobile-ONNX",
+  "base_family": "Google Gemma 4 QAT (E2B ONNX quantifié pour déploiement CPU/disque contraint)",
+  "stage": "OFFLINE_QUANTIZED_ONNX_CPU",
+  "hardware": "Windows 10 Pro | Intel Core i5-1145G7 | 16GB RAM (CPU-only)",
+  "metrics": {
+    "model_load_time_sec": 8.29,
+    "ram_before_load_mb": 253.33,
+    "ram_after_load_mb": 1426.87,
+    "peak_ram_mb": 1867.85,
+    "total_prompts_completed": 5,
+    "total_tokens_generated": 93,
+    "total_generation_time_sec": 449.37,
+    "average_latency_per_prompt_sec": 89.87,
+    "average_tokens_per_sec": 0.21
+  },
+  "prompts_results": [
+    {
+      "id": 1,
+      "category": "Conseil pratique (Agriculture)",
+      "prompt_rw": "Ni izihe nama eshatu z'ingenzi waha umuhinzi w'ibigori mu gihe cy'izuba ryinshi?",
+      "translation_fr": "Quels sont trois conseils essentiels à donner à un cultivateur de maïs en période de sécheresse ?",
+      "response_rw": "Ni izuba ryinshi.",
+      "prompt_tokens": 50,
+      "completion_tokens": 13,
+      "latency_sec": 59.905,
+      "tokens_per_sec": 0.22,
+      "ram_mb": 1857.27
+    },
+    {
+      "id": 2,
+      "category": "Vulgarisation / Simplification",
+      "prompt_rw": "Sobanura mu magambo make kandi yumvikana akamaro ko gukoresha ifumbire y'imborera ku butaka.",
+      "translation_fr": "Explique en termes simples et courts l'importance d'utiliser de l'engrais organique pour le sol.",
+      "response_rw": "**Kinyarwanda:**\n\nSobanura mu mu bw'ubwira mu bw",
+      "prompt_tokens": 49,
+      "completion_tokens": 20,
+      "latency_sec": 78.791,
+      "tokens_per_sec": 0.25,
+      "ram_mb": 1861.76
+    },
+    {
+      "id": 3,
+      "category": "Orientation / Premiers secours",
+      "prompt_rw": "Umwana afite umuriro mwinshi nijoro kandi ivuriro riri kure. Ni iki umubyeyi yakora mu gihe ategereje kujya kwa muganga?",
+      "translation_fr": "Un enfant a une forte fièvre la nuit et le centre de santé est loin. Que doit faire le parent en attendant de consulter ?",
+      "response_rw": "**Kinyarwanda:**\n\nUmuganda (Umwana afite) umuntu w",
+      "prompt_tokens": 58,
+      "completion_tokens": 20,
+      "latency_sec": 79.307,
+      "tokens_per_sec": 0.25,
+      "ram_mb": 1867.85
+    },
+    {
+      "id": 4,
+      "category": "Compréhension / Extraction d'information",
+      "prompt_rw": "Soma iyi nteruro hanyuma uvuge ibikenewe: 'Ejo mu gitondo abahinzi bo mu karere ka Musanze bazahura saa mbiri kugira ngo bahabwe imbuto z'ibirayi.'",
+      "translation_fr": "Lis cette phrase et indique ce qui est nécessaire : 'Demain matin, les agriculteurs du district de Musanze se réuniront à 8h pour recevoir des semences de pommes de terre.'",
+      "response_rw": "This appears to be a request in a language other than English, likely a language spoken in a specific",
+      "prompt_tokens": 66,
+      "completion_tokens": 20,
+      "latency_sec": 118.374,
+      "tokens_per_sec": 0.17,
+      "ram_mb": 1838.64
+    },
+    {
+      "id": 5,
+      "category": "Communication / Sensibilisation",
+      "prompt_rw": "Andika ubutumwa bugufi bwo gushishikariza urubyiruko kwitabira ikoranabuhanga mu buhinzi.",
+      "translation_fr": "Rédige un court message pour encourager les jeunes à adopter la technologie dans l'agriculture.",
+      "response_rw": "**Kinyarwanda:**\n\n**Andika ubutumwa bugufi bwo",
+      "prompt_tokens": 52,
+      "completion_tokens": 20,
+      "latency_sec": 112.989,
+      "tokens_per_sec": 0.18,
+      "ram_mb": 1838.89
+    }
+  ]
+}

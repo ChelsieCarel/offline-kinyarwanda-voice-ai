@@ -1,0 +1,13 @@
+﻿env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+models/
+*.onnx
+*.onnx_data
+*.nemo
+*.gguf
+.vscode/
+.DS_Store
+Thumbs.db

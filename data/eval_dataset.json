@@ -1,0 +1,151 @@
+{
+  "dataset_metadata": {
+    "language": "Kinyarwanda (rw)",
+    "domain": "Agriculture (split test officiel Afrivoice)",
+    "total_clips": 11,
+    "total_duration_sec": 165.0,
+    "total_duration_min": 2.75,
+    "source": "DigitalUmuganda/Afrivoice_Kinyarwanda (agriculture_test_tarred)",
+    "verification_note": "Extraits audio convertis depuis WebM vers WAV 16kHz Mono PCM_16 et transcriptions figées avant test.",
+    "total_llm_prompts": 5,
+    "status": "LOCKED_FOR_BASELINE_AND_OPTIMIZED_EVAL"
+  },
+  "asr_samples": [
+    {
+      "id": 1,
+      "audio_file": "data/audio/kin_afrivoice_test_01.wav",
+      "duration_sec": 14.76,
+      "sampling_rate": 16000,
+      "reference_text": "umugore uri mu murima w'urutoki wambaye agapira ka oranje n'ijipo y'igitenge irimo ibara ry'icyatsi umuhondo n'ubururu inyuma ye hari ibindi biti bitari insina ndetse n'insina",
+      "source": "DigitalUmuganda/Afrivoice_Kinyarwanda (agriculture_test_tarred/manifest_0.json, Licence CC-BY-4.0)",
+      "verified_by": "Manifeste officiel Digital Umuganda Afrivoice (split test)"
+    },
+    {
+      "id": 2,
+      "audio_file": "data/audio/kin_afrivoice_test_02.wav",
+      "duration_sec": 14.88,
+      "sampling_rate": 16000,
+      "reference_text": "inkoko zifite ibara ry'umweru zirimo kurya bakoresheje agakoresho kabugenewe mu kuzigaburira ako gakoresho gafite ibara ry'umweru hasi gafite ibara ry'umutuku",
+      "source": "DigitalUmuganda/Afrivoice_Kinyarwanda (agriculture_test_tarred/manifest_0.json, Licence CC-BY-4.0)",
+      "verified_by": "Manifeste officiel Digital Umuganda Afrivoice (split test)"
+    },
+    {
+      "id": 3,
+      "audio_file": "data/audio/kin_afrivoice_test_03.wav",
+      "duration_sec": 15.0,
+      "sampling_rate": 16000,
+      "reference_text": "abagore n'abagabo bari mu muririma bose bafite amasuka umwe muri bo arayazamuye inyuma yabo hari umurima uteyemo insina n'iruhande rwabo inyuma yabo hari umusozi",
+      "source": "DigitalUmuganda/Afrivoice_Kinyarwanda (agriculture_test_tarred/manifest_0.json, Licence CC-BY-4.0)",
+      "verified_by": "Manifeste officiel Digital Umuganda Afrivoice (split test)"
+    },
+    {
+      "id": 4,
+      "audio_file": "data/audio/kin_afrivoice_test_04.wav",
+      "duration_sec": 15.0,
+      "sampling_rate": 16000,
+      "reference_text": "ikiganza cy'umuntu wirabura gifashe agacupa gafite ibara ry'umweru n'umufuniko w'umutuku kariho icyapa cyandikishijweho amagambo ari mu mabara atandukanye nk'umukara ubururu umutuku na oranje",
+      "source": "DigitalUmuganda/Afrivoice_Kinyarwanda (agriculture_test_tarred/manifest_0.json, Licence CC-BY-4.0)",
+      "verified_by": "Manifeste officiel Digital Umuganda Afrivoice (split test)"
+    },
+    {
+      "id": 5,
+      "audio_file": "data/audio/kin_afrivoice_test_05.wav",
+      "duration_sec": 15.0,
+      "sampling_rate": 16000,
+      "reference_text": "ingurube ifite ibara ry'umweru n'umukara iryamye hasi mu kibuti kibakishijwe imbaho hasi hubakishijwe sima utubwana twayo turimo konka utundi turi ku ruhande",
+      "source": "DigitalUmuganda/Afrivoice_Kinyarwanda (agriculture_test_tarred/manifest_0.json, Licence CC-BY-4.0)",
+      "verified_by": "Manifeste officiel Digital Umuganda Afrivoice (split test)"
+    },
+    {
+      "id": 6,
+      "audio_file": "data/audio/kin_afrivoice_test_06.wav",
+      "duration_sec": 15.0,
+      "sampling_rate": 16000,
+      "reference_text": "ishyamba rinini cyane ririmo ibyatsi bidatoshye ririmo n'ibiti birebire cyane bigandaye ririmo imbogo nyinshi cyane zifite amahembe ahese ndetse n'amatwi ni imbogo nini cyane rwose",
+      "source": "DigitalUmuganda/Afrivoice_Kinyarwanda (agriculture_test_tarred/manifest_0.json, Licence CC-BY-4.0)",
+      "verified_by": "Manifeste officiel Digital Umuganda Afrivoice (split test)"
+    },
+    {
+      "id": 7,
+      "audio_file": "data/audio/kin_afrivoice_test_07.wav",
+      "duration_sec": 15.0,
+      "sampling_rate": 16000,
+      "reference_text": "urugomero rw'amazi akoreshwa mu kuvomerera rukikijwe n'inkingi z'umutuku n'umweru hakurya yaho hari imirima imeze neza iri mu ibara ry'icyatsi imeze neza rwose",
+      "source": "DigitalUmuganda/Afrivoice_Kinyarwanda (agriculture_test_tarred/manifest_0.json, Licence CC-BY-4.0)",
+      "verified_by": "Manifeste officiel Digital Umuganda Afrivoice (split test)"
+    },
+    {
+      "id": 8,
+      "audio_file": "data/audio/kin_afrivoice_test_08.wav",
+      "duration_sec": 15.0,
+      "sampling_rate": 16000,
+      "reference_text": "umugabo wambaye umupira w'ingofero wa kake n'ipantaro y'ikoboyi na bote z'icyatsi uri mu murima w'ibigori akaboko ke k'iburyo karimo gushishura ikigori ak'ibumoso karagifashe",
+      "source": "DigitalUmuganda/Afrivoice_Kinyarwanda (agriculture_test_tarred/manifest_0.json, Licence CC-BY-4.0)",
+      "verified_by": "Manifeste officiel Digital Umuganda Afrivoice (split test)"
+    },
+    {
+      "id": 9,
+      "audio_file": "data/audio/kin_afrivoice_test_09.wav",
+      "duration_sec": 15.12,
+      "sampling_rate": 16000,
+      "reference_text": "ibigori byiza cyane bimaze kwera ndetse byumiye ku biti byabyo bigaragaza yuko bizavamo umusaruro mwiza rwose ibi bigori byeze neza cyane pe",
+      "source": "DigitalUmuganda/Afrivoice_Kinyarwanda (agriculture_test_tarred/manifest_0.json, Licence CC-BY-4.0)",
+      "verified_by": "Manifeste officiel Digital Umuganda Afrivoice (split test)"
+    },
+    {
+      "id": 10,
+      "audio_file": "data/audio/kin_afrivoice_test_10.wav",
+      "duration_sec": 15.12,
+      "sampling_rate": 16000,
+      "reference_text": "abantu babiri bari mu murima w'inyanya umwe muri bo ni umugabo ufite inyanya mu ntoki wambaye agapira k'umukara n'ipantaro y'umukara ndetse n'umwana urimo guseka na we ufite inyanya mu ntoki wambaye ishati n'agakabutura k'ubururu",
+      "source": "DigitalUmuganda/Afrivoice_Kinyarwanda (agriculture_test_tarred/manifest_0.json, Licence CC-BY-4.0)",
+      "verified_by": "Manifeste officiel Digital Umuganda Afrivoice (split test)"
+    },
+    {
+      "id": 11,
+      "audio_file": "data/audio/kin_afrivoice_test_11.wav",
+      "duration_sec": 15.12,
+      "sampling_rate": 16000,
+      "reference_text": "umugore wambaye ikote ry'umukara n'ikanzu irimo ibara ry'umutuku n'umuhondo wunamye urimo kubagarira ikawa inyuma ye hari ibiti by'amakawa byinshi ndetse n'ibindi birebire",
+      "source": "DigitalUmuganda/Afrivoice_Kinyarwanda (agriculture_test_tarred/manifest_0.json, Licence CC-BY-4.0)",
+      "verified_by": "Manifeste officiel Digital Umuganda Afrivoice (split test)"
+    }
+  ],
+  "llm_prompts": [
+    {
+      "id": 1,
+      "category": "Conseil pratique (Agriculture)",
+      "prompt_rw": "Ni izihe nama eshatu z'ingenzi waha umuhinzi w'ibigori mu gihe cy'izuba ryinshi?",
+      "translation_fr": "Quels sont trois conseils essentiels à donner à un cultivateur de maïs en période de sécheresse ?",
+      "expected_criteria": "Pertinence agronomique, clarté en kinyarwanda, structure en 3 points."
+    },
+    {
+      "id": 2,
+      "category": "Vulgarisation / Simplification",
+      "prompt_rw": "Sobanura mu magambo make kandi yumvikana akamaro ko gukoresha ifumbire y'imborera ku butaka.",
+      "translation_fr": "Explique en termes simples et courts l'importance d'utiliser de l'engrais organique pour le sol.",
+      "expected_criteria": "Langage accessible, exactitude sur la fertilité des sols."
+    },
+    {
+      "id": 3,
+      "category": "Orientation / Premiers secours",
+      "prompt_rw": "Umwana afite umuriro mwinshi nijoro kandi ivuriro riri kure. Ni iki umubyeyi yakora mu gihe ategereje kujya kwa muganga?",
+      "translation_fr": "Un enfant a une forte fièvre la nuit et le centre de santé est loin. Que doit faire le parent en attendant de consulter ?",
+      "expected_criteria": "Mesures sûres (hydratation, déshabiller légèrement), aucune prescription médicale risquée."
+    },
+    {
+      "id": 4,
+      "category": "Compréhension / Extraction d'information",
+      "prompt_rw": "Soma iyi nteruro hanyuma uvuge ibikenewe: 'Ejo mu gitondo abahinzi bo mu karere ka Musanze bazahura saa mbiri kugira ngo bahabwe imbuto z'ibirayi.'",
+      "translation_fr": "Lis cette phrase et indique ce qui est nécessaire : 'Demain matin, les agriculteurs du district de Musanze se réuniront à 8h pour recevoir des semences de pommes de terre.'",
+      "expected_criteria": "Extraction exacte : lieu (Musanze), heure (8h / saa mbiri), objet (semences de pommes de terre)."
+    },
+    {
+      "id": 5,
+      "category": "Communication / Sensibilisation",
+      "prompt_rw": "Andika ubutumwa bugufi bwo gushishikariza urubyiruko kwitabira ikoranabuhanga mu buhinzi.",
+      "translation_fr": "Rédige un court message pour encourager les jeunes à adopter la technologie dans l'agriculture.",
+      "expected_criteria": "Ton motivant, vocabulaire naturel en kinyarwanda."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "model_id": "DigitalUmuganda/Mbaza-ASR-Afrivoice-660h",
+  "stage": "BASELINE_FP32_CPU",
+  "hardware": "Windows 10 Pro | Intel Core i5-1145G7 | 16GB RAM (CPU-only)",
+  "metrics": {
+    "model_load_time_sec": 125.75,
+    "ram_before_load_mb": 596.72,
+    "ram_after_load_mb": 1577.15,
+    "peak_ram_mb": 1577.15,
+    "total_audio_duration_sec": 165.0,
+    "total_inference_time_sec": 30.78,
+    "average_latency_per_clip_sec": 2.798,
+    "global_rtf": 0.187,
+    "global_wer_percent": 4.96,
+    "global_cer_percent": 1.0
+  },
+  "clips": [
+    {
+      "id": 1,
+      "audio_file": "data/audio/kin_afrivoice_test_01.wav",
+      "duration_sec": 14.76,
+      "inference_time_sec": 3.121,
+      "rtf": 0.211,
+      "wer_percent": 0.0,
+      "reference_text": "umugore uri mu murima w'urutoki wambaye agapira ka oranje n'ijipo y'igitenge irimo ibara ry'icyatsi umuhondo n'ubururu inyuma ye hari ibindi biti bitari insina ndetse n'insina",
+      "predicted_text": "umugore uri mu murima w'urutoki wambaye agapira ka oranje n'ijipo y'igitenge irimo ibara ry'icyatsi umuhondo n'ubururu inyuma ye hari ibindi biti bitari insina ndetse n'insina"
+    },
+    {
+      "id": 2,
+      "audio_file": "data/audio/kin_afrivoice_test_02.wav",
+      "duration_sec": 14.88,
+      "inference_time_sec": 2.783,
+      "rtf": 0.187,
+      "wer_percent": 0.0,
+      "reference_text": "inkoko zifite ibara ry'umweru zirimo kurya bakoresheje agakoresho kabugenewe mu kuzigaburira ako gakoresho gafite ibara ry'umweru hasi gafite ibara ry'umutuku",
+      "predicted_text": "inkoko zifite ibara ry'umweru zirimo kurya bakoresheje agakoresho kabugenewe mu kuzigaburira ako gakoresho gafite ibara ry'umweru hasi gafite ibara ry'umutuku"
+    },
+    {
+      "id": 3,
+      "audio_file": "data/audio/kin_afrivoice_test_03.wav",
+      "duration_sec": 15.0,
+      "inference_time_sec": 2.647,
+      "rtf": 0.176,
+      "wer_percent": 4.17,
+      "reference_text": "abagore n'abagabo bari mu muririma bose bafite amasuka umwe muri bo arayazamuye inyuma yabo hari umurima uteyemo insina n'iruhande rwabo inyuma yabo hari umusozi",
+      "predicted_text": "abagore n'abagabo bari mu murima bose bafite amasuka umwe muri bo arayazamuye inyuma yabo hari umurima uteyemo insina n'iruhande rwabo inyuma yabo hari umusozi"
+    },
+    {
+      "id": 4,
+      "audio_file": "data/audio/kin_afrivoice_test_04.wav",
+      "duration_sec": 15.0,
+      "inference_time_sec": 2.677,
+      "rtf": 0.178,
+      "wer_percent": 0.0,
+      "reference_text": "ikiganza cy'umuntu wirabura gifashe agacupa gafite ibara ry'umweru n'umufuniko w'umutuku kariho icyapa cyandikishijweho amagambo ari mu mabara atandukanye nk'umukara ubururu umutuku na oranje",
+      "predicted_text": "ikiganza cy'umuntu wirabura gifashe agacupa gafite ibara ry'umweru n'umufuniko w'umutuku kariho icyapa cyandikishijweho amagambo ari mu mabara atandukanye nk'umukara ubururu umutuku na oranje"
+    },
+    {
+      "id": 5,
+      "audio_file": "data/audio/kin_afrivoice_test_05.wav",
+      "duration_sec": 15.0,
+      "inference_time_sec": 3.035,
+      "rtf": 0.202,
+      "wer_percent": 13.64,
+      "reference_text": "ingurube ifite ibara ry'umweru n'umukara iryamye hasi mu kibuti kibakishijwe imbaho hasi hubakishijwe sima utubwana twayo turimo konka utundi turi ku ruhande",
+      "predicted_text": "ingurube ifite ibara ry'umweru n'umukara iryamye hasi mu kibuta cyubakishijwe imbaho hasi hubakishijwe sima utuwana twayo turimo konka utundi turi ku ruhande"
+    },
+    {
+      "id": 6,
+      "audio_file": "data/audio/kin_afrivoice_test_06.wav",
+      "duration_sec": 15.0,
+      "inference_time_sec": 2.754,
+      "rtf": 0.184,
+      "wer_percent": 16.0,
+      "reference_text": "ishyamba rinini cyane ririmo ibyatsi bidatoshye ririmo n'ibiti birebire cyane bigandaye ririmo imbogo nyinshi cyane zifite amahembe ahese ndetse n'amatwi ni imbogo nini cyane rwose",
+      "predicted_text": "ishyamba rinini cyane ririmo ibyatsi bidatoshye birimo n'ibiti birebire cyane bigandaye birimo imboga nyinshi cyane zifite amahembe ahese ndetse n'amatwi ni imboga nini cyane rwose"
+    },
+    {
+      "id": 7,
+      "audio_file": "data/audio/kin_afrivoice_test_07.wav",
+      "duration_sec": 15.0,
+      "inference_time_sec": 2.733,
+      "rtf": 0.182,
+      "wer_percent": 4.55,
+      "reference_text": "urugomero rw'amazi akoreshwa mu kuvomerera rukikijwe n'inkingi z'umutuku n'umweru hakurya yaho hari imirima imeze neza iri mu ibara ry'icyatsi imeze neza rwose",
+      "predicted_text": "urugomero rw'amazi akoreshwa mu kuvomera rukikijwe n'inkingi z'umutuku n'umweru hakurya yaho hari imirima imeze neza iri mu ibara ry'icyatsi imeze neza rwose"
+    },
+    {
+      "id": 8,
+      "audio_file": "data/audio/kin_afrivoice_test_08.wav",
+      "duration_sec": 15.0,
+      "inference_time_sec": 2.75,
+      "rtf": 0.183,
+      "wer_percent": 0.0,
+      "reference_text": "umugabo wambaye umupira w'ingofero wa kake n'ipantaro y'ikoboyi na bote z'icyatsi uri mu murima w'ibigori akaboko ke k'iburyo karimo gushishura ikigori ak'ibumoso karagifashe",
+      "predicted_text": "umugabo wambaye umupira w'ingofero wa kake n'ipantaro y'ikoboyi na bote z'icyatsi uri mu murima w'ibigori akaboko ke k'iburyo karimo gushishura ikigori ak'ibumoso karagifashe"
+    },
+    {
+      "id": 9,
+      "audio_file": "data/audio/kin_afrivoice_test_09.wav",
+      "duration_sec": 15.12,
+      "inference_time_sec": 2.936,
+      "rtf": 0.194,
+      "wer_percent": 9.09,
+      "reference_text": "ibigori byiza cyane bimaze kwera ndetse byumiye ku biti byabyo bigaragaza yuko bizavamo umusaruro mwiza rwose ibi bigori byeze neza cyane pe",
+      "predicted_text": "ibigori byiza cyane bimaze kra ndetse byumiye ku biti byabyo bigaragaza yuko bizabaha umusaruro mwiza rwose ibi bigori byeze neza cyane pe"
+    },
+    {
+      "id": 10,
+      "audio_file": "data/audio/kin_afrivoice_test_10.wav",
+      "duration_sec": 15.12,
+      "inference_time_sec": 2.754,
+      "rtf": 0.182,
+      "wer_percent": 5.88,
+      "reference_text": "abantu babiri bari mu murima w'inyanya umwe muri bo ni umugabo ufite inyanya mu ntoki wambaye agapira k'umukara n'ipantaro y'umukara ndetse n'umwana urimo guseka na we ufite inyanya mu ntoki wambaye ishati n'agakabutura k'ubururu",
+      "predicted_text": "abantu babiri bari mu murima w'inyanya umwe muri bo ni umugabo ufite inyanya mu ntoki wambaye agapira k'umukara n'ipantaro y'umukara ndetse n'umwana urimo guseka nawe ufite inyanya mu ntoki wambaye ishati n'agakabutura k'ubururu"
+    },
+    {
+      "id": 11,
+      "audio_file": "data/audio/kin_afrivoice_test_11.wav",
+      "duration_sec": 15.12,
+      "inference_time_sec": 2.59,
+      "rtf": 0.171,
+      "wer_percent": 0.0,
+      "reference_text": "umugore wambaye ikote ry'umukara n'ikanzu irimo ibara ry'umutuku n'umuhondo wunamye urimo kubagarira ikawa inyuma ye hari ibiti by'amakawa byinshi ndetse n'ibindi birebire",
+      "predicted_text": "umugore wambaye ikote ry'umukara n'ikanzu irimo ibara ry'umutuku n'umuhondo wunamye urimo kubagarira ikawa inyuma ye hari ibiti by'amakawa byinshi ndetse n'ibindi birebire"
+    }
+  ]
+}
